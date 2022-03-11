@@ -21,6 +21,9 @@ if (isset($_POST['n1']))
         $total=$Objeto->Divi($n1,$n2);
     }
 }
+else {
+    $total = 0;
+}
 
 ?>
 <!DOCTYPE html>
